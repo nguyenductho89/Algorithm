@@ -36,6 +36,10 @@ class SwiftAlgorithmTests: XCTestCase {
     Output: [7,0,8]
     Explanation: 342 + 465 = 807.
          */
+        let l1 = ListNode.init(2, ListNode.init(4,ListNode.init(3)))
+        let l2 = ListNode.init(5, ListNode.init(6,ListNode.init(4)))
+        let r = ListNode.init(7, ListNode.init(0,ListNode.init(8)))
+        XCTAssert(addTwoNumbers(l1, l2) == r)
     }
     
     func testAdd2() {
@@ -43,6 +47,10 @@ class SwiftAlgorithmTests: XCTestCase {
          Input: l1 = [0], l2 = [0]
          Output: [0]
          */
+        let l1 = ListNode.init(0)
+        let l2 = ListNode.init(0)
+        let r = ListNode.init(0)
+        XCTAssert(addTwoNumbers(l1, l2) == r)
     }
     
     func test3() {
@@ -50,5 +58,9 @@ class SwiftAlgorithmTests: XCTestCase {
          Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
          Output: [8,9,9,9,0,0,0,1]
          */
+        let l1 = ListNode.init(9, ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(9, ListNode.init(9)))))))
+        let l2 = ListNode.init(9,ListNode.init(9,ListNode.init(9, ListNode.init(9))))
+        let r = ListNode.init(8, ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(0,ListNode.init(0, ListNode.init(0,ListNode.init(1))))))))
+        XCTAssert(addTwoNumbers(l1, l2) == r)
     }
 }
