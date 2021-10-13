@@ -66,5 +66,6 @@ class SwiftAlgorithmTests: XCTestCase {
         print("\(addTwoNumbers(l1, l2)) vs \(r)")
         XCTAssert(addTwoNumbers(l1, l2) == r)
         print("\(addTwoNumbers(l1, l2)) vs \(r)")
+        var e: [Int] = [1,2]
     }
 }
