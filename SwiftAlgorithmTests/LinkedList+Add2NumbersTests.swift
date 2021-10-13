@@ -50,7 +50,9 @@ class SwiftAlgorithmTests: XCTestCase {
         let l1 = ListNode.init(0)
         let l2 = ListNode.init(0)
         let r = ListNode.init(0)
+        print("\(addTwoNumbers(l1, l2)) vs \(r)")
         XCTAssert(addTwoNumbers(l1, l2) == r)
+        print("\(addTwoNumbers(l1, l2)) vs \(r)")
     }
     
     func test3() {
@@ -61,6 +63,8 @@ class SwiftAlgorithmTests: XCTestCase {
         let l1 = ListNode.init(9, ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(9, ListNode.init(9)))))))
         let l2 = ListNode.init(9,ListNode.init(9,ListNode.init(9, ListNode.init(9))))
         let r = ListNode.init(8, ListNode.init(9,ListNode.init(9,ListNode.init(9,ListNode.init(0,ListNode.init(0, ListNode.init(0,ListNode.init(1))))))))
+        print("\(addTwoNumbers(l1, l2)) vs \(r)")
         XCTAssert(addTwoNumbers(l1, l2) == r)
+        print("\(addTwoNumbers(l1, l2)) vs \(r)")
     }
 }
