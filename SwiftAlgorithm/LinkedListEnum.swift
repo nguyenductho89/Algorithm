@@ -14,7 +14,6 @@ indirect enum LinkedListEnumNode<T> {
 
 extension LinkedListEnumNode: Sequence {
     func makeIterator() -> LinkedListEnumIterator<T> {
-        
         return LinkedListEnumIterator(current: self)
     }
 }

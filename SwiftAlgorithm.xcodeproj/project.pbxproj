@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D079DA002717303200E741DC /* LinkedListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079D9FF2717303200E741DC /* LinkedListEnum.swift */; };
 		D079DA042717320400E741DC /* LinkedListEnum+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079DA032717320400E741DC /* LinkedListEnum+Tests.swift */; };
+		D07A44E12718851E00DC5EF1 /* Arbitrary+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07A44E02718851E00DC5EF1 /* Arbitrary+Tests.swift */; };
+		D07A44E32718861300DC5EF1 /* Arbitrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07A44E22718861300DC5EF1 /* Arbitrary.swift */; };
 		D0C83A912700CBFC00C458B1 /* SwiftAlgorithm.docc in Sources */ = {isa = PBXBuildFile; fileRef = D0C83A902700CBFC00C458B1 /* SwiftAlgorithm.docc */; };
 		D0C83A972700CBFC00C458B1 /* SwiftAlgorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C83A8C2700CBFC00C458B1 /* SwiftAlgorithm.framework */; };
 		D0C83A9C2700CBFC00C458B1 /* LinkedList+Add2NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C83A9B2700CBFC00C458B1 /* LinkedList+Add2NumbersTests.swift */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		D079D9FF2717303200E741DC /* LinkedListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListEnum.swift; sourceTree = "<group>"; };
 		D079DA032717320400E741DC /* LinkedListEnum+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkedListEnum+Tests.swift"; sourceTree = "<group>"; };
+		D07A44E02718851E00DC5EF1 /* Arbitrary+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arbitrary+Tests.swift"; sourceTree = "<group>"; };
+		D07A44E22718861300DC5EF1 /* Arbitrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arbitrary.swift; sourceTree = "<group>"; };
 		D0C83A8C2700CBFC00C458B1 /* SwiftAlgorithm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftAlgorithm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C83A8F2700CBFC00C458B1 /* SwiftAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftAlgorithm.h; sourceTree = "<group>"; };
 		D0C83A902700CBFC00C458B1 /* SwiftAlgorithm.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftAlgorithm.docc; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				D079D9FF2717303200E741DC /* LinkedListEnum.swift */,
 				D0EC66C827076FD00092D302 /* LinkedList+Remove Nth Node From End of List.swift */,
 				D0EC66C627076F890092D302 /* LinkedList+Add2Numbers.swift */,
+				D07A44E22718861300DC5EF1 /* Arbitrary.swift */,
 			);
 			path = SwiftAlgorithm;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				D0C83A9B2700CBFC00C458B1 /* LinkedList+Add2NumbersTests.swift */,
 				D0EC66CC2707707F0092D302 /* LinkedList+Remove Nth Node From End of List + Tests.swift */,
 				D079DA032717320400E741DC /* LinkedListEnum+Tests.swift */,
+				D07A44E02718851E00DC5EF1 /* Arbitrary+Tests.swift */,
 			);
 			path = SwiftAlgorithmTests;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 				D0EC66C727076F890092D302 /* LinkedList+Add2Numbers.swift in Sources */,
 				D0C83A912700CBFC00C458B1 /* SwiftAlgorithm.docc in Sources */,
 				D0C83AA72700CC2A00C458B1 /* LinkedList.swift in Sources */,
+				D07A44E32718861300DC5EF1 /* Arbitrary.swift in Sources */,
 				D079DA002717303200E741DC /* LinkedListEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +233,7 @@
 			files = (
 				D0EC66CD2707707F0092D302 /* LinkedList+Remove Nth Node From End of List + Tests.swift in Sources */,
 				D079DA042717320400E741DC /* LinkedListEnum+Tests.swift in Sources */,
+				D07A44E12718851E00DC5EF1 /* Arbitrary+Tests.swift in Sources */,
 				D0C83A9C2700CBFC00C458B1 /* LinkedList+Add2NumbersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

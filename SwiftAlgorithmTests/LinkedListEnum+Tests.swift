@@ -19,6 +19,9 @@ class LinkedListEnum_Tests: XCTestCase {
         print(iterator.next())
         print(iterator.next())
         print(iterator.next())
+        var aa = [1,2]
+        var ia = aa.makeIterator()
+        print(ia.next())
     }
 
 }
